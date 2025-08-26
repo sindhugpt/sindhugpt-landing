@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Parast - Learn Build Belong</title>
+
+  <link rel="icon" href="./assets/images/logo.png" type="image/png">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/hero-abs-1.png" media="min-width(768px)">
+  <link rel="preload" as="image" href="./assets/images/hero-abs-2.png" media="min-width(768px)">
+</head>
+
+<body id="top">
+
+
+
+<!-- 
+  - #HEADER
+-->
+<header class="header" data-header>
+  <div class="container">
+
+    <h1 class="logo-container">
+      <a href="#" class="logo" style="display: flex; align-items: center;">
+        <img src="./assets/images/logo.png" alt="Tech Parast Logo" width="32" height="32" style="margin-right: 8px;">
+        <span>Tech Parast</span>
+      </a>
+    </h1>
+
+    <nav class="navbar" data-navbar>
+
+      <div class="navbar-top">
+        <a href="#" class="logo" style="display: flex; align-items: center;">
+          <img src="./assets/images/logo.png" alt="Tech Parast Logo" width="28" height="28" style="margin-right: 6px;">
+          <span>Tech Parast</span>
+        </a>
+
+        <button class="nav-close-btn" aria-label="Close menu" data-nav-toggler>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+      </div>
+
+      <ul class="navbar-list">
+
+        <li class="navbar-item">
+          <a href="#home" class="navbar-link" data-nav-toggler>Home</a>
+        </li>
+
+        <li class="navbar-item">
+          <a href="#about" class="navbar-link" data-nav-toggler>About</a>
+        </li>
+
+        <li class="navbar-item">
+          <a href="#courses" class="navbar-link" data-nav-toggler>Skills</a>
+        </li>
+
+        <li class="navbar-item">
+          <a href="#event" class="navbar-link" data-nav-toggler>Event</a>
+        </li>
+
+        <li class="navbar-item">
+          <a href="#founder" class="navbar-link" data-nav-toggler>Founder</a>
+        </li>
+
+        <li class="navbar-item">
+          <a href="#contact" class="navbar-link" data-nav-toggler>Contact</a>
+        </li>
+
+      </ul>
+
+    </nav>
+
+    <div class="header-actions">
+
+      <button class="header-action-btn" aria-label="Open search" data-search-toggler>
+        <ion-icon name="search-outline"></ion-icon>
+      </button>
+
+      <a href="https://whatsapp.com/channel/0029Vb5xGiqA2pL8uMwWFt37" target="_blank" rel="noopener noreferrer" class="header-action-btn login-btn">
+        <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+        <span class="span">Login / Register</span>
+      </a>
+
+      <button class="header-action-btn nav-open-btn" aria-label="Open menu" data-nav-toggler>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+    </div>
+
+    <div class="overlay" data-nav-toggler data-overlay></div>
+
+  </div>
+</header>
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <!-- 
+  - #HERO
+-->
+
+      <section class="hero" id="home" aria-label="hero" style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="section-subtitle">A Student-led Tech Community</p>
+
+            <h2 class="h1 hero-title">Tech Parast — Learn, Build, Belong</h2>
+
+            <p class="hero-text">
+              We are a growing community of student innovators, developers, and tech enthusiasts collaborating to learn
+              new skills, build real-world projects, and support one another on our tech journeys.
+            </p>
+
+            <a href="https://whatsapp.com/channel/0029Vb5xGiqA2pL8uMwWFt37" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+
+              <span class="span">Join the Community</span>
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.png" width="500" height="500" loading="lazy" alt="hero image"
+              class="w-100">
+            <img src="./assets/images/hero-abs-1.png" width="318" height="352" loading="lazy" aria-hidden="true"
+              class="abs-img abs-img-1">
+            <img src="./assets/images/hero-abs-2.png" width="160" height="160" loading="lazy" aria-hidden="true"
+              class="abs-img abs-img-2">
+          </figure>
+
+        </div>
+      </section>
+
+          <!-- Founder Section -->
+<section class="section founder" id="founder" aria-label="Founder">
+  <div class="container">
+
+    <div class="founder-content" style="text-align: center; max-width: 800px; margin: 0 auto;">
+      <img src="./assets/images/founder-ghulam.jpg" alt="Ghulam Hussain" width="180" height="180" style="border-radius: 100px; margin-bottom: 20px; box-shadow: 0 8px 20px rgba(0,0,0,0.1);">
+
+      <h2 class="h2 section-title">Meet the Founder</h2>
+      <h3 style="margin-bottom: 10px;">Ghulam Hussain</h3>
+
+      <p style="font-size: 17px; line-height: 1.6;">
+        I’m Ghulam Hussain, a passionate tech enthusiast and the founder of Tech Parast. I'm on a mission to build a strong, inclusive tech community where students can learn, build real-world projects, and grow together. Tech Parast aims to support aspiring developers, designers, and innovators through collaboration, mentorship, and opportunity.
+      </p>
+
+      <div style="margin-top: 20px;">
+        <a href="https://github.com/ghulamhussainkhuhro" target="_blank" class="btn btn-secondary" style="margin: 5px;">
+          <ion-icon name="logo-github" style="vertical-align: middle;"></ion-icon>
+          <span style="margin-left: 8px;">GitHub</span>
+        </a>
+
+        <a href="https://www.linkedin.com/in/ghulamhussainkhuhro" target="_blank" class="btn btn-primary" style="margin: 5px;">
+          <ion-icon name="logo-linkedin" style="vertical-align: middle;"></ion-icon>
+          <span style="margin-left: 8px;">LinkedIn</span>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+      <!-- 
+  - #CATEGORY
+-->
+
+      <section class="section category" id="courses" aria-label="category">
+        <div class="container">
+
+          <p class="section-subtitle">Explore Our Domains</p>
+
+          <h2 class="h2 section-title">What You Can Learn & Contribute To</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="category-card">
+                <div class="card-icon">
+                  <ion-icon name="code-slash-outline"></ion-icon>
+                </div>
+                <div>
+                  <h3 class="h3 card-title"><a href="#">Web Development</a></h3>
+                  <span class="card-meta">Community Projects</span>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card">
+                <div class="card-icon">
+                  <ion-icon name="cloud-outline"></ion-icon>
+                </div>
+                <div>
+                  <h3 class="h3 card-title"><a href="#">Cloud & DevOps</a></h3>
+                  <span class="card-meta">Hands-on Sessions</span>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card">
+                <div class="card-icon">
+                  <ion-icon name="brain-outline"></ion-icon>
+                </div>
+                <div>
+                  <h3 class="h3 card-title"><a href="#">AI & Machine Learning</a></h3>
+                  <span class="card-meta">Research & Study Groups</span>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card">
+                <div class="card-icon">
+                  <ion-icon name="git-branch-outline"></ion-icon>
+                </div>
+                <div>
+                  <h3 class="h3 card-title"><a href="#">Open Source</a></h3>
+                  <span class="card-meta">Hackathons & Collabs</span>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card">
+                <div class="card-icon">
+                  <ion-icon name="bulb-outline"></ion-icon>
+                </div>
+                <div>
+                  <h3 class="h3 card-title"><a href="#">Startup & Innovation</a></h3>
+                  <span class="card-meta">Founder Support</span>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card">
+                <div class="card-icon">
+                  <ion-icon name="earth-outline"></ion-icon>
+                </div>
+                <div>
+                  <h3 class="h3 card-title"><a href="#">Tech for Good</a></h3>
+                  <span class="card-meta">Impact Projects</span>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+      <!-- 
+  - #ABOUT
+-->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.jpg" width="450" height="590" loading="lazy" alt="about banner"
+              class="w-100 about-img">
+            <img src="./assets/images/about-abs-1.jpg" width="188" height="242" loading="lazy" aria-hidden="true"
+              class="abs-img abs-img-1">
+            <img src="./assets/images/about-abs-2.jpg" width="150" height="200" loading="lazy" aria-hidden="true"
+              class="abs-img abs-img-2">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">Who We Are</p>
+
+            <h2 class="h2 section-title">Tech Parast — Learn. Build. Belong.</h2>
+
+            <ul class="about-list">
+
+              <li class="about-item">
+                <div class="item-icon item-icon-1">
+                  <img src="./assets/images/about-icon-1.png" width="30" height="30" loading="lazy" aria-hidden="true">
+                </div>
+                <div>
+                  <h3 class="h3 item-title">Student-Centered Community</h3>
+                  <p class="item-text">
+                    Built by students, for students — Tech Parast is a growing hub of aspiring technologists,
+                    developers, and innovators supporting each other.
+                  </p>
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="item-icon item-icon-2">
+                  <img src="./assets/images/about-icon-2.png" width="30" height="30" loading="lazy" aria-hidden="true">
+                </div>
+                <div>
+                  <h3 class="h3 item-title">Collaboration Over Competition</h3>
+                  <p class="item-text">
+                    Whether you're learning web development, building in AI, or contributing to open source, we grow
+                    together by sharing knowledge.
+                  </p>
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="item-icon item-icon-3">
+                  <img src="./assets/images/about-icon-3.png" width="30" height="30" loading="lazy" aria-hidden="true">
+                </div>
+                <div>
+                  <h3 class="h3 item-title">Bridging Local Talent to Global Impact</h3>
+                  <p class="item-text">
+                    We aim to empower students from underserved regions with the skills, networks, and confidence to
+                    build and contribute on a global scale.
+                  </p>
+                </div>
+              </li>
+
+            </ul>
+
+            <a href="#" class="btn btn-primary">
+              <span class="span">Know About Us</span>
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+  
+
+
+
+      <!-- 
+  - #CTA
+-->
+
+      <section class="section cta" aria-label="join" style="background-image: url('./assets/images/cta-bg.png')">
+        <div class="container">
+
+          <figure class="cta-banner">
+            <img src="./assets/images/cta-banner.jpg" width="580" height="380" loading="lazy" alt="cta banner"
+              class="img-cover">
+          </figure>
+
+          <div class="cta-content">
+
+            <p class="section-subtitle">Join Tech Parast</p>
+
+            <h2 class="h2 section-title">Be Part of a Student-Led Tech Movement</h2>
+
+            <p class="section-text">
+              Whether you're a beginner or building your portfolio, Tech Parast gives you a space to grow, collaborate,
+              and explore tech together. Start your journey, share your skills, and build what matters — with the
+              community behind you.
+            </p>
+
+            <a href="https://whatsapp.com/channel/0029Vb5xGiqA2pL8uMwWFt37" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <span class="span">Join the Community</span>
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+      <!-- 
+  - #EVENT
+-->
+
+      <section class="section event" id="event" aria-label="event">
+        <div class="container">
+
+          <p class="section-subtitle">Community Events</p>
+
+          <h2 class="h2 section-title">Future Tech Parast Initiatives</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="event-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/event-1.jpg" width="370" height="250" loading="lazy"
+                    alt="Tech Parast Launch Meetup" class="img-cover">
+                </figure>
+
+                <time class="badge" datetime="2025-08-10">Aug 2025</time>
+
+                <div class="card-content">
+
+                  <address class="card-address">
+                    <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+                    <span class="span">Hyderabad, Sindh - Pakistan</span>
+                  </address>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Tech Parast Community Kickoff</a>
+                  </h3>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Learn More</span>
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/event-2.jpg" width="370" height="250" loading="lazy"
+                    alt="Hands-on AI Bootcamp" class="img-cover">
+                </figure>
+
+                <time class="badge" datetime="2025-09-15">Sep 2025</time>
+
+                <div class="card-content">
+
+                  <address class="card-address">
+                    <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+                    <span class="span">Virtual / Discord Server</span>
+                  </address>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">AI Bootcamp for Beginners</a>
+                  </h3>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Register Interest</span>
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/event-3.jpg" width="370" height="250" loading="lazy"
+                    alt="Hackathon by Tech Parast" class="img-cover">
+                </figure>
+
+                <time class="badge" datetime="2025-11-05">Nov 2025</time>
+
+                <div class="card-content">
+
+                  <address class="card-address">
+                    <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+                    <span class="span">In-Person + Online (Hybrid)</span>
+                  </address>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Tech Parast Mini Hackathon</a>
+                  </h3>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Coming Soon</span>
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <!-- 
+  - #FOOTER
+-->
+<!-- #CONTACT (Footer) -->
+<section id="contact">
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">Tech Parast</a>
+
+          <p class="section-text">
+            Tech Parast is a student-led tech community built to empower learners, innovators, and creators across
+            Pakistan. We believe in open collaboration, project-based learning, and growing together through tech.
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="https://web.facebook.com/profile.php?id=61577985759793" target="_blank" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://x.com/techparast" target="_blank" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.linkedin.com/company/tech-parast/" target="_blank" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://github.com/tech-parast" target="_blank" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+          <li><p class="footer-list-title">Quick Links</p></li>
+          <li><a href="#home" class="footer-link">Home</a></li>
+          <li><a href="#about" class="footer-link">About</a></li>
+          <li><a href="#courses" class="footer-link">Skill Tracks</a></li>
+          <li><a href="#event" class="footer-link">Events</a></li>
+        </ul>
+
+        <ul class="footer-list">
+          <li><p class="footer-list-title">Contact Info</p></li>
+          <li class="footer-item">
+            <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+            <address class="footer-link">Hyderabad, Sindh, Pakistan</address>
+          </li>
+          <li class="footer-item">
+            <ion-icon name="call" aria-hidden="true"></ion-icon>
+            <a href="tel:+923001234567" class="footer-link">+92 314 0665954</a>
+          </li>
+          <li class="footer-item">
+            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+            <a href="mailto:techparast.org@gmail.com" class="footer-link">techparast.org@gmail.com</a>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+  </footer>
+</section>
+
+
+
+
+
+      <!-- 
+    - #BACK TO TOP
+  -->
+
+      <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+        <ion-icon name="arrow-up"></ion-icon>
+      </a>
+
+
+
+
+
+      <!-- 
+    - custom js link
+  -->
+      <script src="./assets/js/script.js" defer></script>
+
+      <!-- 
+    - ionicon link
+  -->
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
